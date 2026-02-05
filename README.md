@@ -1,35 +1,22 @@
-LaTeX Résumé
-A fully typeset résumé built using LaTeX, designed for clarity, consistency, and easy version control. This repository includes both the source .tex file and the compiled PDF for quick viewing.
+# LaTeX Resume
 
-Features
-Clean, modern layout optimized for technical roles
+A clean, well‑structured resume built using LaTeX. This repository includes both the source `.tex` file and the compiled PDF for quick viewing.
 
-Fully customizable section structure
+## Features
+- Modern, minimal layout suitable for technical roles  
+- Consistent formatting through LaTeX  
+- Easy to update and version‑control  
+- Fully customizable sections and styling  
 
-Consistent typography and spacing through LaTeX
+## Files Included
+- `resume.tex` — main LaTeX source  
+- `resume.pdf` — compiled output  
+- Additional assets or class files if required
 
-Version-controlled résumé for transparent updates over time
+## Building the Resume
+To compile the PDF locally:
 
-Repository Contents
-resume.tex — main LaTeX source file
-
-resume.pdf — compiled output
-
-Any supporting files (class files, images, or custom commands)
-
-How to Build
-If you want to compile the résumé yourself:
-
-Install a LaTeX distribution (TeX Live, MiKTeX, or MacTeX)
-
-Use a LaTeX editor or run:
-
-bash
-pdflatex resume.tex
-The PDF will be generated in the same directory
-
-Why LaTeX?
-LaTeX ensures precise formatting, professional typography, and easy maintenance. It’s especially useful for technical résumés where structure and readability matter.
-
-License
-Feel free to fork or adapt this résumé for your own use. Attribution is appreciated but not required.
+1. Install a LaTeX distribution (TeX Live, MiKTeX, or MacTeX)  
+2. Run the following command in the project directory:  
+   ```bash
+   pdflatex resume.tex
