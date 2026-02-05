@@ -1,0 +1,191 @@
+%-------------------------
+% Resume in Latex
+% Author : David Ogunbanjo
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape David Ogunbanjo} \\ \vspace{1pt}
+    \small Baltimore, MD $|$ 443-985-8675 $|$ 
+    \href{mailto:davidogunbanjo15@gmail.com}{\underline{davidogunbanjo15@gmail.com}} $|$
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/...}} $|$
+    \href{https://github.com/...}{\underline{github.com/...}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Loyola University Maryland}{Baltimore, MD}
+      {Bachelor of Science in Computer Science}{Anticipated May 2027}
+      \resumeItemListStart
+        \resumeItem{Honors: Loyola Presidential Scholarship, Delegate Scholarship}
+        \resumeItem{Scholar Programs: Hyman Science Scholar Program, Hauber Research Fellowship}
+        \resumeItem{Relevant Coursework: Object-Oriented Data Structure Design and Analysis, Operating Systems}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Hauber Research Fellow}{Summer 2025}
+      {Loyola University Maryland}{Baltimore, MD}
+      \resumeItemListStart
+        \resumeItem{Developed and optimized CNN models for pothole detection in roadway images.}
+        \resumeItem{Collected, labeled, and preprocessed datasets using Python, TensorFlow, and Roboflow.}
+        \resumeItem{Evaluated model performance using precision, recall, and F1 score.}
+        \resumeItem{Collaborated with faculty mentors to prepare a research paper and presentation.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Information Technology Technical Services Assistant}{Summer 2024 -- Present}
+      {Loyola University Maryland}{Baltimore, MD}
+      \resumeItemListStart
+        \resumeItem{Installed and configured operating systems and enterprise software on 90\% of campus devices.}
+        \resumeItem{Diagnosed and repaired hardware/software issues, improving uptime and user satisfaction.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Technical Coordinator}{Summers 2023 -- Spring 2024}
+      {Westminster, MD}{}
+      \resumeItemListStart
+        \resumeItem{Created a Power App to automate temperature tracking, improving efficiency by 40\%.}
+        \resumeItem{Streamlined data systems through SharePoint and Excel automation.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Information Technology Intern}{Summers 2023}
+      {Westminster, MD}{}
+      \resumeItemListStart
+        \resumeItem{Built a data-tracking app using Power Apps and Power Automate.}
+        \resumeItem{Designed and launched a SharePoint site for centralized company documentation.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------LEADERSHIP-----------
+\section{Leadership Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Robotics Club}{Fall 2024 -- Present}
+      {Vice President}{Loyola University Maryland}
+      \resumeItemListStart
+        \resumeItem{Oversaw project planning and collaboration with STEM organizations.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Association for Computing Machinery \& Cybersecurity Club}{Fall 2024 -- Present}
+      {Co-President}{Loyola University Maryland}
+      \resumeItemListStart
+        \resumeItem{Organized technical workshops, hackathons, and networking events.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Personal Portfolio Website}{2024}
+      {Technologies: React, Material-UI, Netlify}{} 
+      \resumeItemListStart
+        \resumeItem{Developed a responsive portfolio website to showcase projects and skills.}
+        \resumeItem{Implemented interactive UI components using React and Material-UI.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Pothole Detection System}{2025}
+      {Technologies: Python, TensorFlow, Roboflow}{} 
+      \resumeItemListStart
+        \resumeItem{Created a CNN model to detect potholes in roadway images with 92\% accuracy.}
+        \resumeItem{Individually preprocessed and manually labeled a dataset of 5,000 images for training and validation.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, laTex} \\
+     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
+     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib} \\
+     \textbf{Certifications}{: CompTIA A+, CPR}
+    }}
+ \end{itemize}
+
+\end{document}
