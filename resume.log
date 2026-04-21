@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.2)  2 MAR 2026 17:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.2)  21 APR 2026 18:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,11 +23,6 @@ File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
-) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
-Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
-\symlasy=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 ) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/preprint\fullpage.sty
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip51
@@ -42,8 +37,6 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen151
 \titlewidthlast=\dimen152
 \titlewidthfirst=\dimen153
-) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/marvosym\marvosym.sty
-Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 ) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
@@ -54,17 +47,12 @@ Package color Info: Driver file: pdftex.def on input line 149.
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
-Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks18
-\verbatim@line=\toks19
-\verbatim@in@stream=\read2
-) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\enitkv@toks@=\toks20
+\enitkv@toks@=\toks18
 \labelindent=\skip54
 \enit@outerparindent=\dimen154
-\enit@toks=\toks21
+\enit@toks=\toks19
 \enit@inbox=\box54
 \enit@count@id=\count283
 \enitdp@description=\count284
@@ -74,7 +62,7 @@ Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks20
 ) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
@@ -187,7 +175,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip67
 \f@nch@widthC=\skip68
 \f@nch@widthR=\skip69
-\@temptokenb=\toks23
+\@temptokenb=\toks21
 ) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2026/02/14 v26.3 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count297
@@ -201,7 +189,7 @@ LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) o
 \U@D=\dimen159
 \l@unhyphenated=\language79
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
-\bbl@readstream=\read3
+\bbl@readstream=\read2
 \bbl@dirlevel=\count298
 Package babel Info: Configuration files are deprecated, as
 (babel)             they can break document portability.
@@ -230,7 +218,7 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen160
 \ar@mcellbox=\box55
 \extrarowheight=\dimen161
-\NC@list=\toks24
+\NC@list=\toks22
 \extratabsurround=\skip70
 \backup@length=\skip71
 \ar@cellbox=\box56
@@ -241,31 +229,33 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \TX@target=\dimen165
 \TX@delta=\dimen166
 \TX@cols=\count299
-\TX@ftn=\toks25
-) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode.tex) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+\TX@ftn=\toks23
+) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode.tex) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+) (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count300
 ) (resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count301
@@ -273,35 +263,24 @@ LaTeX Font Info:    ... okay on input line 69.
 \scratchbox=\box57
 \nofMPsegments=\count302
 \nofMParguments=\count303
-\everyMPshowfont=\toks26
+\everyMPshowfont=\toks24
 \MPscratchCnt=\count304
 \MPscratchDim=\dimen168
 \MPnumerator=\count305
 \makeMPintoPDFobject=\count306
-\everyMPtoPDFconversion=\toks27
+\everyMPtoPDFconversion=\toks25
 )
-Package hyperref Info: Link coloring OFF on input line 69.
+Package hyperref Info: Link coloring OFF on input line 68.
  (resume.out) (resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 73.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 74.
+(Font)              <9> on input line 96.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 74.
+(Font)              <6> on input line 96.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 74.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 74.
-(C:\Users\david\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 85.
+(Font)              <5> on input line 96.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -315,25 +294,21 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 2C7DECA55FEDE8267C521CABE50AED98;710.
+(rerunfilecheck)             Checksum: 59BA0F8C2A065EF29D6915ECC8AB7379;788.
  ) 
 Here is how much of TeX's memory you used:
- 10878 strings out of 467867
- 173038 string characters out of 5418335
- 628746 words of memory out of 5000000
- 39638 multiletter control sequences out of 15000+600000
- 632290 words of font info for 58 fonts, out of 8000000 for 9000
+ 10704 strings out of 467867
+ 170018 string characters out of 5418335
+ 627771 words of memory out of 5000000
+ 39473 multiletter control sequences out of 15000+600000
+ 636695 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,301b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on resume.pdf (1 page, 129158 bytes).
+ 75i,11n,79p,453b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2488.pk>
+Output written on resume.pdf (1 page, 74057 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 257 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
