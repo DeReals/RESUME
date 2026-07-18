@@ -24,11 +24,11 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% Tight margins to fit one page
-\addtolength{\oddsidemargin}{-0.55in}
-\addtolength{\evensidemargin}{-0.55in}
-\addtolength{\textwidth}{1.1in}
-\addtolength{\topmargin}{-.6in}
+% Relaxed margins for better readability
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.6in}
 \addtolength{\textheight}{1.2in}
 
 \urlstyle{same}
@@ -37,9 +37,9 @@
 \setlength{\tabcolsep}{0in}
 \setlength{\parskip}{0pt}
 
-% Section formatting -- ATS reads simple ruled sections well
+% Section formatting
 \titleformat{\section}{
-  \vspace{-5pt}\scshape\raggedright\large
+  \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule\vspace{-4pt}]
 
 \pdfgentounicode=1
@@ -50,13 +50,12 @@
   \item\small{#1\vspace{-2pt}}
 }
 
-% Two-line subheading using tabularx -- ATS safe since it's single-column content
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & \small#2 \\
       \textit{\small#3} & \textit{\small#4} \\
-    \end{tabular*}\vspace{-6pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.1in, label={}]}
@@ -68,7 +67,6 @@
 \begin{document}
 
 %-----------HEADING-----------
-% ATS TIP: Plain text header, no tables, no icons
 \begin{center}
     {\Huge \scshape \textbf{David Ogunbanjo}} \\ \vspace{2pt}
     \small
@@ -81,10 +79,9 @@
 \vspace{-6pt}
 
 %-----------SUMMARY-----------
-% ATS TIP: Summary with keywords the job posting uses
 \section{Summary}
 \small{
-Computer Science student at Loyola University Maryland (May 2027) with hands-on experience in machine learning, full-stack software development, and IT systems administration. Built and deployed production ML pipelines achieving 92\% accuracy; automated cross-departmental workflows improving team efficiency by 40\%. CompTIA A+ certified Presidential Scholar and technical leader seeking software engineering, data engineering, or cybersecurity roles. Actively pursuing CompTIA Network+ and Security+.
+Computer Science student with experience in machine learning, full-stack software development, and IT systems administration. Built production ML pipelines achieving 92\% accuracy; automated workflows improving team efficiency by 40\%. CompTIA A+ certified Presidential Scholar seeking software engineering, data engineering, or cybersecurity roles. Actively pursuing CompTIA Network+ and Security+.
 }
 \vspace{-2pt}
 
@@ -109,8 +106,8 @@ Computer Science student at Loyola University Maryland (May 2027) with hands-on 
       {Loyola University Maryland}{Baltimore, MD}
       \resumeItemListStart
         \resumeItem{Designed and trained CNN models for pothole detection, achieving 92\% accuracy on a 5,000-image labeled dataset.}
-        \resumeItem{Built end-to-end ML pipeline using Python, TensorFlow, and Roboflow covering data ingestion, augmentation, training, and evaluation.}
-        \resumeItem{Evaluated model performance using precision, recall, and F1 score; findings prepared for peer-reviewed academic publication.}
+        \resumeItem{Built end-to-end ML pipeline using Python, TensorFlow, and Roboflow covering data ingestion, training, and evaluation.}
+        \resumeItem{Prepared findings on model precision, recall, and F1 scores for peer-reviewed academic publication.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -122,24 +119,24 @@ Computer Science student at Loyola University Maryland (May 2027) with hands-on 
       {IT Technical Services Assistant}{Summer 2024 -- Present}
       {Loyola University Maryland}{Baltimore, MD}
       \resumeItemListStart
-        \resumeItem{Provisioned and configured operating systems and enterprise software across 90\% of campus devices, supporting 3,000+ users.}
-        \resumeItem{Diagnosed and resolved hardware, software, and network issues; reduced average ticket resolution time by 20\% through systematic troubleshooting documentation.}
+        \resumeItem{Provisioned OS and enterprise software across 90\% of campus devices, supporting 3,000+ users.}
+        \resumeItem{Diagnosed hardware and network issues; reduced average ticket resolution time by 20\% via systematic documentation.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Technical Coordinator}{Summer 2023 -- Spring 2024}
       {Carroll County Government}{Westminster, MD}
       \resumeItemListStart
-        \resumeItem{Architected a Power Apps solution to automate temperature tracking workflows, improving team efficiency by 40\% and eliminating manual data entry.}
-        \resumeItem{Optimized data management systems using SharePoint and Excel automation, eliminating redundant entry across 3 departments and reducing reporting overhead.}
+        \resumeItem{Architected a Power Apps solution to automate temperature tracking workflows, improving team efficiency by 40\%.}
+        \resumeItem{Optimized SharePoint and Excel data management systems, eliminating redundant entry across 3 departments.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Information Technology Intern}{Summer 2023}
       {Carroll County Government}{Westminster, MD}
       \resumeItemListStart
-        \resumeItem{Developed a data-tracking application using Power Apps and Power Automate, serving 20+ daily active users and replacing a manual spreadsheet process.}
-        \resumeItem{Designed and launched a SharePoint intranet site for centralized documentation, reducing document retrieval time by 35\% and improving cross-team knowledge sharing for 50+ employees.}
+        \resumeItem{Developed a Power Apps data-tracking application serving 20+ daily active users, replacing manual spreadsheets.}
+        \resumeItem{Launched a SharePoint intranet site, reducing document retrieval time by 35\% for 50+ employees.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -152,15 +149,15 @@ Computer Science student at Loyola University Maryland (May 2027) with hands-on 
       {Association for Computing Machinery and Cybersecurity Club}{Fall 2024 -- Present}
       {Co-President}{Loyola University Maryland}
       \resumeItemListStart
-        \resumeItem{Led 50+ member organization; organized 10+ technical workshops, hackathons, and industry networking events each semester.}
-        \resumeItem{Grew club membership by 30\% year-over-year through sponsorships and faculty partnership initiatives.}
+        \resumeItem{Led 50+ member organization; organized 10+ technical workshops, hackathons, and networking events per semester.}
+        \resumeItem{Grew club membership by 30\% year-over-year through sponsorships and faculty partnerships.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Robotics Club}{Fall 2024 -- Present}
       {Vice President}{Loyola University Maryland}
       \resumeItemListStart
-        \resumeItem{Oversee cross-functional project teams and coordinate STEM outreach partnerships with external organizations.}
+        \resumeItem{Coordinate cross-functional project teams and external STEM outreach partnerships.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -173,23 +170,23 @@ Computer Science student at Loyola University Maryland (May 2027) with hands-on 
       {Pothole Detection System}{2025}
       {Python, TensorFlow, Roboflow, CNN, OpenCV}{}
       \resumeItemListStart
-        \resumeItem{Trained a CNN on 5,000 manually labeled roadway images, achieving 92\% detection accuracy with optimized precision-recall tradeoff.}
-        \resumeItem{Reduced training time by 25\% through preprocessing pipeline optimization using OpenCV and Roboflow augmentation strategies.}
+        \resumeItem{Trained a CNN on 5,000 labeled roadway images, achieving 92\% detection accuracy.}
+        \resumeItem{Reduced training time by 25\% via OpenCV and Roboflow preprocessing optimization.}
       \resumeItemListEnd
 
     \resumeSubheading
       {CompTIA Security+ Study Platform}{2025}
       {React, JavaScript, CSS}{}
       \resumeItemListStart
-        \resumeItem{Built an interactive web app featuring flashcards, quizzes, and a practice exam engine covering all Security+ exam domains.}
-        \resumeItem{Implemented persistent progress tracking with localStorage so completion state survives page refresh.}
+        \resumeItem{Built an interactive web app with flashcards, quizzes, and a practice exam engine covering all Security+ domains.}
+        \resumeItem{Implemented persistent progress tracking using localStorage.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Personal Portfolio Website}{2024}
       {React, Material-UI, Netlify}{}
       \resumeItemListStart
-        \resumeItem{Designed and deployed a fully responsive portfolio site; integrated CI/CD via Netlify for automatic deploys on push.}
+        \resumeItem{Designed and deployed a fully responsive portfolio site with Netlify CI/CD integration.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -200,8 +197,8 @@ Computer Science student at Loyola University Maryland (May 2027) with hands-on 
     \small{\item{
      \textbf{Languages}{: Java, Python, C, C++, SQL, JavaScript, HTML, CSS, LaTeX} \\[1pt]
      \textbf{Frameworks and Libraries}{: React, Node.js, Flask, FastAPI, Material-UI, pandas, NumPy, Matplotlib, TensorFlow} \\[1pt]
-     \textbf{Tools and Platforms}{: Git, Docker, Google Cloud Platform, Power Apps, Power Automate, SharePoint, VS Code, PyCharm} \\[1pt]
-     \textbf{Certifications}{: CompTIA A+ (certified), CompTIA Network+ (in progress), CompTIA Security+ (in progress), CPR Certified}
+     \textbf{Tools and Platforms}{: Git, Docker, Google Cloud Platform, Power Apps, Power Automate, SharePoint, VS Code} \\[1pt]
+     \textbf{Certifications}{: CompTIA A+, CompTIA Network+ (in progress), CompTIA Security+ (in progress), CPR Certified}
     }}
  \end{itemize}
 
