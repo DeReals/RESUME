@@ -1,6 +1,9 @@
-% ATS-Optimized One-Page Resume
-% Author: David Ogunbanjo
-%-------------------------
+%-------------------------------------------------------------------
+% Hybrid (Combination) Resume — David Ogunbanjo
+% Format: Header > Summary > Skills Grid > Key Projects > Research >
+%         Experience > Certifications & Leadership > Education
+% ATS-safe: single column body, standard fonts, no graphics
+%-------------------------------------------------------------------
 
 \documentclass[letterpaper,10pt]{article}
 
@@ -14,7 +17,6 @@
 \usepackage{tabularx}
 \input{glyphtounicode}
 
-% ATS CRITICAL: No special fonts, no columns, no graphics
 \usepackage[T1]{fontenc}
 
 \pagestyle{fancy}
@@ -23,12 +25,12 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% Relaxed margins for better readability
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1.0in}
-\addtolength{\topmargin}{-0.6in}
-\addtolength{\textheight}{1.2in}
+% Margins tuned for one page
+\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\evensidemargin}{-0.55in}
+\addtolength{\textwidth}{1.1in}
+\addtolength{\topmargin}{-0.65in}
+\addtolength{\textheight}{1.3in}
 
 \urlstyle{same}
 \raggedbottom
@@ -36,10 +38,11 @@
 \setlength{\tabcolsep}{0in}
 \setlength{\parskip}{0pt}
 
-% Section formatting
+% Section headers: small caps, rule underneath, dark gray accent
+\definecolor{accent}{RGB}{45,45,60}
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule\vspace{-4pt}]
+  \vspace{-5pt}\scshape\raggedright\large\color{accent}
+}{}{0em}{}[\color{accent}\titlerule\vspace{-4pt}]
 
 \pdfgentounicode=1
 
@@ -49,12 +52,21 @@
   \item\small{#1\vspace{-2pt}}
 }
 
+% Experience entry: Title | right: dates / italic org | right: location
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & \small#2 \\
       \textit{\small#3} & \textit{\small#4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-6pt}
+}
+
+% Project entry: Name | Tech stack (italic) | right: dates
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \small#1 & \small#2 \\
+    \end{tabular*}\vspace{-6pt}
 }
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.1in, label={}]}
@@ -65,25 +77,117 @@
 %-------------------------------------------
 \begin{document}
 
-%-----------HEADING-----------
+%-----------HEADER-----------
 \begin{center}
-    {\Huge \scshape \textbf{David Ogunbanjo}} \\ \vspace{4pt}
-    {\Large \textbf{Software Engineer}} \\ \vspace{2pt}
+    {\Huge \scshape \textbf{David Ogunbanjo}} \\ \vspace{3pt}
     \small
     Baltimore, MD \textbar{}
     443-985-8675 \textbar{}
-    \href{mailto:davidogunbanjo15@gmail.com}{davidogunbanjo15@gmail.com} \textbar{}
-    \href{https://www.linkedin.com/in/david-ogunbanjo-987bb720b/}{linkedin.com/in/davidogunbanjo} \textbar{}
-    \href{https://github.com/DeReals}{github.com/davidogunbanjo}
+    \href{mailto:davidogunbanjo15@gmail.com}{davidogunbanjo15@gmail.com} \\ \vspace{1pt}
+    \href{https://github.com/DeReals}{\textbf{GitHub:} github.com/DeReals} \textbar{}
+    \href{https://www.linkedin.com/in/david-ogunbanjo-987bb720b/}{\textbf{LinkedIn:} david-ogunbanjo} \textbar{}
+    \href{https://portfolio-ruddy-eight-z8xw6ar77w.vercel.app/}{\textbf{Portfolio:} portfolio-ruddy-eight.vercel.app}
 \end{center}
+\vspace{-10pt}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\small{
+Computer Science student specializing in full-stack software engineering and applied machine learning. Proficient in building production-grade web applications (TypeScript, React, Next.js, PostgreSQL) and end-to-end ML pipelines (Python, TensorFlow) --- with a CNN research model reaching \textbf{92\% accuracy} and workflow automation delivering \textbf{40\% efficiency gains}. Seeking a software engineering internship or co-op; pursuing CompTIA Network+ and Security+.
+}
+\vspace{-4pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\vspace{2pt}
+\begin{itemize}[leftmargin=0.1in, label={}]
+  \small{\item{
+    \begin{tabular*}{0.99\textwidth}[t]{@{}p{0.49\textwidth}@{\hspace{12pt}}p{0.47\textwidth}@{}}
+      \textbf{Languages:} Java, Python, C/C++, TypeScript, JavaScript, SQL & \textbf{Frontend:} React, Next.js, Tailwind CSS, Material-UI, Recharts \\[2pt]
+      \textbf{Backend \& Data:} Node.js, Flask, FastAPI, PostgreSQL, \mbox{Supabase} & \textbf{ML \& Analytics:} TensorFlow, pandas, NumPy, OpenCV, \mbox{Roboflow} \\[2pt]
+      \textbf{DevOps \& Tools:} Git, Docker, Linux, CI/CD, Vercel, Netlify & \textbf{Practices:} OOP, Data Structures \& Algorithms, REST, Agile \\
+    \end{tabular*}
+  }}
+\end{itemize}
 \vspace{-6pt}
 
-%-----------SUMMARY-----------
-\section{Summary}
-\small{
-Computer Science student with experience in software engineering, machine learning, and IT systems administration. Built production ML pipelines achieving 92\% accuracy; automated workflows improving team efficiency by 40\%. Technically proficient problem solver seeking a software engineering role. Actively pursuing CompTIA Network+ and Security+.
-}
-\vspace{-2pt}
+%-----------KEY PROJECTS-----------
+\section{Key Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{Ledger: Personal Finance Platform} $|$ \textit{Next.js, React, TypeScript, PostgreSQL, Supabase}}{Jun 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Building a full-stack finance platform \textbf{solo} --- database schema design, Supabase JWT authentication with \textbf{row-level security}, and a dashboard-driven React frontend for accounts, transactions, and savings goals.}
+        \resumeItem{Engineered interactive spending and cash-flow visualizations with Recharts, plus budgeting tools and a transaction tracker over a secure, authenticated data layer.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Pothole Detection System} $|$ \textit{Python, TensorFlow, CNN, OpenCV, Roboflow}}{Jan 2025 -- May 2025}
+      \resumeItemListStart
+        \resumeItem{Trained a CNN on 5,000 labeled roadway images achieving \textbf{92\% detection accuracy}; cut training time \textbf{25\%} through OpenCV and Roboflow preprocessing optimization.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{CompTIA Security+ Study Platform} $|$ \textit{React, JavaScript, CSS}}{Jan 2025 -- Mar 2025}
+      \resumeItemListStart
+        \resumeItem{Built an interactive study app with flashcards, quizzes, and a practice exam engine covering all Security+ domains, with persistent progress tracking via localStorage.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-4pt}
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Hauber Research Fellow: AI/ML Research}{May 2025 -- Aug 2025}
+      {Loyola University Maryland}{Baltimore, MD}
+      \resumeItemListStart
+        \resumeItem{Designed and trained CNN models for pothole detection, achieving \textbf{92\% accuracy} on a 5,000-image labeled dataset; built the end-to-end ML pipeline (ingestion, training, evaluation) in Python and TensorFlow.}
+        \resumeItem{Prepared findings on model precision, recall, and F1 scores for peer-reviewed academic publication.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-4pt}
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {IT Technical Services Assistant}{May 2024 -- Present}
+      {Loyola University Maryland}{Baltimore, MD}
+      \resumeItemListStart
+        \resumeItem{Provisioned OS and enterprise software across \textbf{90\% of campus devices}, supporting 3,000+ users; cut average ticket resolution time \textbf{20\%} via systematic documentation.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Technical Coordinator}{Jun 2023 -- May 2024}
+      {Carroll County Government}{Westminster, MD}
+      \resumeItemListStart
+        \resumeItem{Architected a Power Apps solution automating temperature-tracking workflows, improving team efficiency \textbf{40\%}; eliminated redundant data entry across 3 departments via SharePoint and Excel optimization.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Information Technology Intern}{Jun 2023 -- Aug 2023}
+      {Carroll County Government}{Westminster, MD}
+      \resumeItemListStart
+        \resumeItem{Developed a Power Apps data-tracking application serving \textbf{20+ daily users}; launched a SharePoint intranet reducing document retrieval time \textbf{35\%} for 50+ employees.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-4pt}
+
+%-----------CERTIFICATIONS & LEADERSHIP-----------
+\section{Certifications \& Leadership}
+\begin{itemize}[leftmargin=0.1in, label={}]
+  \small{\item{
+    \textbf{Certifications:} CompTIA A+ $|$ CompTIA Network+ (in progress) $|$ CompTIA Security+ (in progress) $|$ CPR Certified \\[2pt]
+    \textbf{Co-President, ACM \& Cybersecurity Club:} Led 50+ member organization; organized 10+ technical workshops and hackathons per semester; grew membership \textbf{30\%} year-over-year. \\[2pt]
+    \textbf{Vice President, Robotics Club:} Coordinate cross-functional project teams and external STEM outreach partnerships.
+  }}
+\end{itemize}
+\vspace{-6pt}
 
 %-----------EDUCATION-----------
 \section{Education}
@@ -92,114 +196,8 @@ Computer Science student with experience in software engineering, machine learni
       {Loyola University Maryland}{Baltimore, MD}
       {Bachelor of Science in Computer Science}{Expected May 2027}
       \resumeItemListStart
-        \resumeItem{Awards: Loyola Presidential Scholarship, Delegate Scholarship}
-        \resumeItem{Programs: Hyman Science Scholar, Haig Scholar, Hauber Research Fellow}
-        \resumeItem{Coursework: Data Structures \& Algorithms, Operating Systems, Stochastic Processes, Programming Languages}
+        \resumeItem{Loyola Presidential Scholarship $|$ Hyman Science Scholar $|$ Haig Scholar $|$ Hauber Research Fellow}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
-
-%-----------RESEARCH EXPERIENCE-----------
-\section{Research Experience}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Hauber Research Fellow -- AI/ML Research}{May 2025 -- Aug 2025}
-      {Loyola University Maryland}{Baltimore, MD}
-      \resumeItemListStart
-        \resumeItem{Designed and trained CNN models for pothole detection, achieving 92\% accuracy on a 5,000-image labeled dataset.}
-        \resumeItem{Built end-to-end ML pipeline using Python, TensorFlow, and Roboflow covering data ingestion, training, and evaluation.}
-        \resumeItem{Prepared findings on model precision, recall, and F1 scores for peer-reviewed academic publication.}
-      \resumeItemListEnd
-  \resumeSubHeadingListEnd
-
-%-----------WORK EXPERIENCE-----------
-\section{Work Experience}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {IT Technical Services Assistant}{May 2024 -- Present}
-      {Loyola University Maryland}{Baltimore, MD}
-      \resumeItemListStart
-        \resumeItem{Provisioned OS and enterprise software across 90\% of campus devices, supporting 3,000+ users.}
-        \resumeItem{Diagnosed hardware and network issues; reduced average ticket resolution time by 20\% via systematic documentation.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Technical Coordinator}{Jun 2023 -- May 2024}
-      {Carroll County Government}{Westminster, MD}
-      \resumeItemListStart
-        \resumeItem{Architected a Power Apps solution to automate temperature tracking workflows, improving team efficiency by 40\%.}
-        \resumeItem{Optimized SharePoint and Excel data management systems, eliminating redundant entry across 3 departments.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Information Technology Intern}{Jun 2023 -- Aug 2023}
-      {Carroll County Government}{Westminster, MD}
-      \resumeItemListStart
-        \resumeItem{Developed a Power Apps data-tracking application serving 20+ daily active users, replacing manual spreadsheets.}
-        \resumeItem{Launched a SharePoint intranet site, reducing document retrieval time by 35\% for 50+ employees.}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
-
-%-----------LEADERSHIP-----------
-\section{Leadership Experience}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Association for Computing Machinery and Cybersecurity Club}{Aug 2024 -- Present}
-      {Co-President}{Loyola University Maryland}
-      \resumeItemListStart
-        \resumeItem{Led 50+ member organization; organized 10+ technical workshops, hackathons, and networking events per semester.}
-        \resumeItem{Grew club membership by 30\% year-over-year through sponsorships and faculty partnerships.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Robotics Club}{Aug 2024 -- Present}
-      {Vice President}{Loyola University Maryland}
-      \resumeItemListStart
-        \resumeItem{Coordinate cross-functional project teams and external STEM outreach partnerships.}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
-
-%-----------PROJECTS-----------
-\section{Projects}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Pothole Detection System}{Jan 2025 -- May 2025}
-      {Python, TensorFlow, Roboflow, CNN, OpenCV}{}
-      \resumeItemListStart
-        \resumeItem{Trained a CNN on 5,000 labeled roadway images, achieving 92\% detection accuracy.}
-        \resumeItem{Reduced training time by 25\% via OpenCV and Roboflow preprocessing optimization.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {CompTIA Security+ Study Platform}{Jan 2025 -- Mar 2025}
-      {React, JavaScript, CSS}{}
-      \resumeItemListStart
-        \resumeItem{Built an interactive web app with flashcards, quizzes, and a practice exam engine covering all Security+ domains.}
-        \resumeItem{Implemented persistent progress tracking using localStorage.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Personal Portfolio Website}{Aug 2024 -- Dec 2024}
-      {React, Material-UI, Netlify}{}
-      \resumeItemListStart
-        \resumeItem{Designed and deployed a fully responsive portfolio site with Netlify CI/CD integration.}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
-
-%-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.1in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Java, Python, C, C++, SQL, JavaScript, HTML, CSS, LaTeX} \\[1pt]
-     \textbf{Frameworks \& Libraries}{: React, Node.js, Flask, FastAPI, Material-UI, pandas, NumPy, TensorFlow} \\[1pt]
-     \textbf{Concepts \& Tools}{: Object-Oriented Programming (OOP), Data Structures, REST APIs, Linux, Git, Docker, CI/CD} \\[1pt]
-     \textbf{Certifications}{: CompTIA A+, CompTIA Network+ (in progress), CompTIA Security+ (in progress), CPR Certified}
-    }}
- \end{itemize}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.2)  21 APR 2026 18:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.2)  30 JUL 2026 11:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -238,24 +238,24 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 ) (resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
  (C:\Users\david\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count301
@@ -270,17 +270,71 @@ LaTeX Font Info:    ... okay on input line 68.
 \makeMPintoPDFobject=\count306
 \everyMPtoPDFconversion=\toks25
 )
-Package hyperref Info: Link coloring OFF on input line 68.
+Package hyperref Info: Link coloring OFF on input line 78.
  (resume.out) (resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 96.
+(Font)              <9> on input line 105.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 96.
+(Font)              <6> on input line 105.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 96.
+(Font)              <5> on input line 105.
+
+Underfull \hbox (badness 1769) in paragraph at lines 107--107
+[]|\T1/cmr/bx/n/9 Backend & Data: \T1/cmr/m/n/9 Node.js, Flask, FastAPI, Post-greSQL,
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 105--109
+[][] 
+ []
+
+
+Overfull \hbox (1.73792pt too wide) in paragraph at lines 105--111
+[]  
+ []
+
+
+Overfull \hbox (1.73792pt too wide) in paragraph at lines 119--120
+[]  
+ []
+
+
+Overfull \hbox (1.73792pt too wide) in paragraph at lines 126--127
+[]  
+ []
+
+
+Overfull \hbox (1.73792pt too wide) in paragraph at lines 132--133
+[]  
+ []
+
+
+Overfull \hbox (1.73792pt too wide) in paragraph at lines 145--146
+[]  
+ []
+
+
+Overfull \hbox (1.73792pt too wide) in paragraph at lines 159--160
+[]  
+ []
+
+
+Overfull \hbox (1.73792pt too wide) in paragraph at lines 166--167
+[]  
+ []
+
+
+Overfull \hbox (1.73792pt too wide) in paragraph at lines 173--174
+[]  
+ []
+
+
+Overfull \hbox (1.73792pt too wide) in paragraph at lines 197--198
+[]  
+ []
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -295,20 +349,20 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 59BA0F8C2A065EF29D6915ECC8AB7379;788.
+(rerunfilecheck)             Checksum: F2CE3EA32D971C459BD7FC2BEF5E5FFB;955.
  ) 
 Here is how much of TeX's memory you used:
- 10704 strings out of 467867
- 170018 string characters out of 5418335
- 628771 words of memory out of 5000000
- 39473 multiletter control sequences out of 15000+600000
+ 10706 strings out of 467867
+ 170051 string characters out of 5418335
+ 628952 words of memory out of 5000000
+ 39475 multiletter control sequences out of 15000+600000
  636695 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,453b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2488.pk>
-Output written on resume.pdf (1 page, 74111 bytes).
+ 75i,11n,79p,560b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\david\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2488.pk><C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on resume.pdf (1 page, 92199 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
+ 289 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

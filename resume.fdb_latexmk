@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1776811352.86452 "c:/Users/david/OneDrive/Documents/GitHub/RESUME/resume.tex" "resume.pdf" "resume" 1776811356.41553 0
+["pdflatex"] 1785423707.25549 "c:/Users/david/OneDrive/Documents/GitHub/RESUME/resume.tex" "resume.pdf" "resume" 1785423709.24785 0
   "C:/Users/david/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773241719 80937 91001db6d4ae332437b4b739862cda02 ""
   "C:/Users/david/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0900.pk" 1776809391 22504 5afa2934058ed1be3a860921564a54a8 ""
   "C:/Users/david/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/eccc1200.pk" 1776809393 30576 821ccf7156cd49e3e898b5a1ab2133c1 ""
@@ -23,6 +23,7 @@
   "C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr9.tfm" 1136765053 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy9.tfm" 1136765053 1116 25a7bf822c58caf309a702ef79f4afbb ""
+  "C:/Users/david/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb" 1247596666 32442 c975af247b6702f7ca0c299af3616b80 ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty" 1771089191 147019 f2ca437186bfeb562e1066ad59426a04 ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/en/babel-en.ini" 1771089192 3936 fef897bbcfe8e9d18c93a3d2d53cf9d8 ""
@@ -71,10 +72,10 @@
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1761901070 15651 9d7c62df82cb29a555c00550babfe364 ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1761901070 7243 a2c17f18e2c9b702b84fad03d5f9c78b ""
   "C:/Users/david/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/david/OneDrive/Documents/GitHub/RESUME/resume.tex" 1776811350 8163 baac853a339714f1cbbc2b0f7cb0a339 ""
-  "resume.aux" 1776811355 1054 2044917c0f154dbb0e5dee7b76227c01 "pdflatex"
-  "resume.out" 1776811355 788 59ba0f8c2a065ef29d6915ecc8ab7379 "pdflatex"
-  "resume.tex" 1776811350 8163 baac853a339714f1cbbc2b0f7cb0a339 ""
+  "c:/Users/david/OneDrive/Documents/GitHub/RESUME/resume.tex" 1785423703 8974 d071981f806a8555be23c1916dff08f2 ""
+  "resume.aux" 1785423708 1086 b194ba24831dc336892ec2e7f62271d8 "pdflatex"
+  "resume.out" 1785423708 955 f2ce3ea32d971c459bd7fc2bef5e5ffb "pdflatex"
+  "resume.tex" 1785423703 8974 d071981f806a8555be23c1916dff08f2 ""
   (generated)
   "resume.aux"
   "resume.log"

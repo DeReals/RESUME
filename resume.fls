@@ -128,6 +128,7 @@ INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm248
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc2488.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecxc2488.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0900.tfm
+INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx0900.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc1000.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc1200.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc0900.tfm
@@ -137,7 +138,6 @@ INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx0900.tfm
 INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti0900.tfm
 INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT resume.aux
@@ -145,11 +145,13 @@ INPUT .\resume.out
 INPUT .\resume.out
 INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti0900.pk
 INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti0900.pk
-INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk
-INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk
 INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk
 INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk
+INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk
+INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk
 INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk
 INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk
 INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc2488.pk
 INPUT C:\Users\david\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc2488.pk
+INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
+INPUT C:\Users\david\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
